@@ -7,10 +7,16 @@ menu-bar monitor for Claude, Codex, and Cursor usage.
 
 ```sh
 brew tap soren-starck/tap
+brew trust soren-starck/tap        # Homebrew 6+ requires trusting third-party taps
 brew install --cask sessionwatcher
 ```
 
-After the one-time `brew tap`, the short name works directly:
+> Homebrew 6 refuses to load casks from an untrusted third-party tap until you
+> run `brew trust soren-starck/tap` (one time). Without it you'll see
+> "Refusing to load cask … from untrusted tap." This step is not needed for
+> casks in the official `homebrew-cask` repo.
+
+After the one-time `brew tap` + `brew trust`, the short name works directly:
 
 ```sh
 brew install --cask sessionwatcher
