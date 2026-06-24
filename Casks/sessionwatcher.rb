@@ -5,7 +5,7 @@ cask "sessionwatcher" do
   url "https://sessionwatcher-updates.vercel.app/downloads/SessionWatcher-#{version}.dmg",
       verified: "sessionwatcher-updates.vercel.app/"
   name "SessionWatcher"
-  desc "Menu-bar monitor for Claude, Codex, and Cursor usage"
+  desc "Menu bar monitor for AI coding assistant usage and limits"
   homepage "https://www.sessionwatcher.com/"
 
   # Reads the same Sparkle appcast the app itself checks, so `brew livecheck`
