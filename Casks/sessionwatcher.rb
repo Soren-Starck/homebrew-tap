@@ -28,9 +28,15 @@ cask "sessionwatcher" do
   app "SessionWatcher.app"
 
   zap trash: [
+    "~/Library/Application Scripts/com.sessionwatcher.app.widgets",
+    "~/Library/Application Scripts/group.com.sessionwatcher.app",
     "~/Library/Application Support/SessionWatcher",
     "~/Library/Caches/com.sessionwatcher.app",
+    "~/Library/Containers/com.sessionwatcher.app.widgets",
+    "~/Library/Group Containers/group.com.sessionwatcher.app",
     "~/Library/HTTPStorages/com.sessionwatcher.app",
+    "~/Library/HTTPStorages/com.sessionwatcher.app.binarycookies",
     "~/Library/Preferences/com.sessionwatcher.app.plist",
+    "~/Library/WebKit/com.sessionwatcher.app",
   ]
 end
