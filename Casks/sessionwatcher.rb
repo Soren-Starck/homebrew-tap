@@ -1,6 +1,6 @@
 cask "sessionwatcher" do
-  version "6.5.26"
-  sha256 "d301d3b14c4217b13540cdd2b23d2edc37258240766f375d30ca626a9ddd2b72"
+  version "6.5.27"
+  sha256 "9869b1b26b68b5690da08596efcab2d1af574fbf2f59e84b729de4f21f6b798b"
 
   url "https://sessionwatcher-updates.vercel.app/downloads/SessionWatcher-#{version}.dmg",
       verified: "sessionwatcher-updates.vercel.app/"
