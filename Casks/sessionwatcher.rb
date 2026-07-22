@@ -34,6 +34,7 @@ cask "sessionwatcher" do
     "~/Library/Application Scripts/group.com.sessionwatcher.app",
     "~/Library/Application Support/SessionWatcher",
     "~/Library/Caches/com.sessionwatcher.app",
+    "~/Library/Caches/com.sessionwatcher.app.sparkle",
     "~/Library/Containers/com.sessionwatcher.app.widgets",
     "~/Library/Containers/com.sessionwatcher.app.writer",
     "~/Library/Group Containers/C4XW4P5L2Q.com.sessionwatcher.app",
