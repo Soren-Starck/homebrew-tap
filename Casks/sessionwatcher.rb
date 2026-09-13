@@ -2,8 +2,7 @@ cask "sessionwatcher" do
   version "7.3.0"
   sha256 "9e9e6587a8d72647c485b1438f87e69b1341b54e92a853509c39d3ec21a5ae11"
 
-  url "https://sessionwatcher-updates.vercel.app/downloads/SessionWatcher-#{version}.dmg",
-      verified: "sessionwatcher-updates.vercel.app/"
+  url "https://sessionwatcher-updates.vercel.app/downloads/SessionWatcher-#{version}.dmg"
   name "SessionWatcher"
   desc "Menu bar monitor for AI coding assistant usage and limits"
   homepage "https://www.sessionwatcher.com/"
